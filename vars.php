@@ -1,0 +1,3 @@
+<?php
+
+$maVar = "ma variable";
