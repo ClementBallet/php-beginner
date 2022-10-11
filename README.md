@@ -2,8 +2,8 @@
 
 ## Documentation
 
-La bible de PHP : https://www.php.net/manual/fr/index.php
-Introduction à PHP : https://www.php.net/manual/fr/tutorial.php
+- La bible de PHP : https://www.php.net/manual/fr/index.php
+- Introduction à PHP : https://www.php.net/manual/fr/tutorial.php
 
 ## Installation de PHP
 
@@ -30,6 +30,7 @@ Plusieurs solutions s'offrent à vous :
 ### Installation de PHP en global
 
 1. Télécharger la dernière version de PHP ici : https://windows.php.net/download
+2. On peut ensuite utiliser le serveur interne de PHP en lancant la commande `php -S localhost:8080` dans le dossier du projet
 
 ### Installation avec Composer
 
@@ -48,3 +49,7 @@ Pour que PHP soit bien reconnu par VSCode, il faut l'ajouter en faisant les éta
 2. Taper "settings.json" dans la recherche et choisir "Ouvrir les paramètres utilisateurs (JSON)"
 3. Rajouter le `.exe` de php dans la ligne `php.validate.executablePath` ou ajoutez la ligne. Si vous travaillez dans WAMP, le chemin vers PHP est dans le dossier wamp64 : "C:/wamp64/bin/php/php8.1.0/php.exe" (**attention de bien choisir la version de PHP que vous utilisez**). Le résultat sera le suivant :
 ```"php.validate.executablePath": "C:/wamp64/bin/php/php8.1.0/php.exe"```
+
+## Configurer PHP pour visualiser les erreurs
+
+Voir le lien : https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238821-configurez-php-pour-visualiser-les-erreurs
